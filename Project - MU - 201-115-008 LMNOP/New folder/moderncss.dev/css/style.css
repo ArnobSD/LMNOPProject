@@ -173,7 +173,7 @@ h2 {
 }
 
 article>h2 {
-    color: #dedf40
+    color: #d367c1
 }
 
 .tdbc-h3,
@@ -277,7 +277,7 @@ a:not([class*=button]) code {
 }
 
 code:not([class*=language]) {
-    color: #fdfd00;
+    color: #d367c1;
     display: inline-block;
     font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
     font-size: .85em;
@@ -324,7 +324,7 @@ blockquote {
 }
 
 blockquote:first-child {
-    color: #fdfd00;
+    color: #ab79d6;
     margin: 0 auto 3rem;
     max-width: 60ch;
     text-align: center
@@ -354,7 +354,7 @@ blockquote:not(:first-child).promo {
 }
 
 blockquote:not(:first-child).promo a {
-    color: #fdfd00
+    color: #d367c1
 }
 
 blockquote :last-child {
@@ -365,7 +365,7 @@ body {
     --tdbc-gradient-angle: to right;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    background-image: linear-gradient(rgba(1, 48, 73, 0.342), rgba(0, 2, 3, 0.336), rgba(122, 83, 0, 0.342) ), url(5.png);
+    background-image: linear-gradient(rgba(0, 38, 59, 0.267), rgba(1, 18, 32, 0.904) ), url(5.png);
     -o-border-image: linear-gradient(var(--tdbc-gradient-angle), #ffd000 10%, #dedf40 25%, #eeff00 50%, #edfc18 75%, #ffe600 90%) 1;
     border-image: -webkit-gradient(linear, left top, left bottom, from(var(--tdbc-gradient-angle)), color-stop(10%, #d367c1), color-stop(25%, #dedf40), color-stop(50%, #62cb5c), color-stop(75%, #00bbcb), color-stop(90%, #ab79d6)) 1;
     border-image: linear-gradient(var(--tdbc-gradient-angle), #e5ff00 10%, #dfdc40 25%, #050500 50%, #e8f538 75%, #00aeff42 90%) 1;
@@ -394,7 +394,7 @@ footer {
 }
 
 footer.tdbc-background--secondary {
-    background-color: hsl(49, 100%, 50%)
+    background-color: #bf42aa
 }
 
 footer .tdbc-container {
@@ -578,7 +578,7 @@ button {
     -ms-flex-pack: center;
     align-items: center;
     align-self: start;
-    background-color: #fdfd00;
+    background-color: #ab79d6;
     border: none;
     border-radius: 1em;
     color: #27272c;
@@ -745,8 +745,8 @@ article form+ul {
 }
 
 .tdbc-nav .tdbc-logo-m:focus:before {
-    -webkit-box-shadow: 0 0 0 4px #dedf40;
-    box-shadow: 0 0 0 4px #dedf40
+    -webkit-box-shadow: 0 0 0 4px #d367c1;
+    box-shadow: 0 0 0 4px #d367c1
 }
 
 .tdbc-nav a:not([class]) {
@@ -888,8 +888,7 @@ article form+ul {
 }
 
 .tdbc-card__content:after {
-    background-image: linear-gradient(rgba(1, 48, 73, 0.342), rgba(0, 2, 3, 0.336), rgba(122, 83, 0, 0.342) ), url(55.png);
-
+    background-image: linear-gradient(rgba(0, 95, 133, 0.411), rgba(255, 217, 0, 0.103) ), url(55.png);
     content: "";
     height: 100%;
     left: 0;
@@ -912,7 +911,6 @@ article form+ul {
 }
 
 .tdbc-card__content a:last-child {
- 
     -ms-flex-item-align: start;
     align-self: start;
     margin-top: auto
@@ -940,15 +938,13 @@ article form+ul {
 }
 
 .tdbc-card:hover:before {
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
     -webkit-transform: scale(1.02);
     transform: scale(1.02)
 }
 
 .tdbc-card:focus-within:before {
-    -webkit-box-shadow: 0 0 0 3px #dedf40;
-    box-shadow: 0 0 0 3px #dedf40
+    -webkit-box-shadow: 0 0 0 3px #d367c1;
+    box-shadow: 0 0 0 3px #d367c1
 }
 
 .tdbc-card blockquote img {
@@ -960,7 +956,7 @@ article form+ul {
 
 .tdbc-card--teaser {
     background: transparent;
-    border: 1px dashed #fdfd00;
+    border: 1px dashed #ab79d6;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -1161,7 +1157,7 @@ pre[class*=language-] {
 .token.inserted,
 .token.selector,
 .token.string {
-    color: #dedf40
+    color: #ab79d6
 }
 
 .language-css .token.string,
@@ -1171,7 +1167,7 @@ pre[class*=language-] {
 .token.operator,
 .token.url,
 .token.variable {
-    color: #dedf40
+    color: #d367c1
 }
 
 .token.function {
@@ -1465,12 +1461,12 @@ ins.highlight-line-add {
 }
 
 .tdbc-background--secondary {
-    background-color: #ffff00
+    background-color: #d367c1
 }
 
 .tdbc-ink--primary,
 a.tdbc-ink--primary {
-    color: #ffff00
+    color: #ab79d6
 }
 
 .tdbc-ink--primary a:not(.tdbc-button) {
@@ -1479,7 +1475,7 @@ a.tdbc-ink--primary {
 
 .tdbc-ink--secondary,
 a.tdbc-ink--secondary {
-    color: #fffb00
+    color: #d367c1
 }
 
 .tdbc-ink--secondary a:not(.tdbc-button) {
@@ -1538,7 +1534,4 @@ a.tdbc-ink--light {
 
 .tdbc-mb-none {
     margin: 0
-}
-.colorr {
-    background-color: hsl(0, 100%, 50%)
 }
